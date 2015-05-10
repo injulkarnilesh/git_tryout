@@ -1,4 +1,2 @@
 # git_tryout
-Trying out git
-
-#Using github
+Trying out git with github
