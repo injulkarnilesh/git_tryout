@@ -6,4 +6,4 @@ Line C
 
 Change made in mybranch
 Another chnage made from mybranch
-
+New line from mybranch.
