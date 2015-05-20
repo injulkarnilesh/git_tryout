@@ -1,7 +1,7 @@
 hi this is renamed file
 
 Line A
-Line B
+Line B from master
 Line C
 
 Change made in mybranch
