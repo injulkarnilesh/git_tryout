@@ -1,9 +1,8 @@
 hi this is renamed file
 
-Line A
 
 Line B from master and mybranch
-Line C
+
 
 Change made in mybranch
 Another chnage made from mybranch
