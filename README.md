@@ -4,4 +4,5 @@ It's cool!
 
 ## Wow
 Change from local repo diff file.
-Somebody else changed the file and line same.
+
+We changed the file and line same. Yay!
