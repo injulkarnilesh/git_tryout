@@ -7,6 +7,7 @@ Line B from master and mybranch
 Change made in mybranch
 Another chnage made from mybranch
 New line from mybranch.
+Again somebody else changes something.
 Change from remote that is github.
 This line changed by REMOTE and ME.
 Ok, changed again.
