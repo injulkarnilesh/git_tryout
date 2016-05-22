@@ -6,6 +6,9 @@ Line B from master and mybranch
 
 
 Change made in mybranch
+
+Me changing same file different line.
+
 Another chnage made from mybranch
 New line from mybranch.
 Again somebody else changes something.
