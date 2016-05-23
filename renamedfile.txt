@@ -2,7 +2,11 @@ hi this is renamed file
 
 Somebody changing same file different line.
 
+<<<<<<< HEAD
 Line B from master and mybranch same line.
+=======
+Line A from master and mybranch
+>>>>>>> Changing same line
 
 
 Change made in mybranch
