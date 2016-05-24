@@ -4,7 +4,8 @@ Somebody changing same file different line.
 
 Line B from master and mybranch the same line.
 
-Change made in mybranch from remote.
+
+Change made in mybranch from remote and local.
 
 Me changing same file different line.
 
