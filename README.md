@@ -21,7 +21,7 @@ $git diff --cached
 
 $git commit -m 'commit message'
 
-$git diff COMMIT_1 COMMIT_2 README.md
+$git diff COMMIT-1 COMMIT-2 README.md
 
 $git origin master
 
