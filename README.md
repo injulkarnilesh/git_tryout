@@ -27,7 +27,7 @@ $git origin master
 
 $git pull --rebase origin master
 
-$git add README.md
+$git add README.md //to mark file resolved
 
 $git rebase --continue  //after same line conflict resolution
 
