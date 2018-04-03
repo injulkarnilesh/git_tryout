@@ -15,3 +15,5 @@ Again! somebody else changes something, yet again.
 Change from remote that is github.
 This line changed by remote and me.
 Ok, changed again.
+
+Commit with ammend.
