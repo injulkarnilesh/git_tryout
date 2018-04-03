@@ -18,3 +18,4 @@ Ok, changed again.
 
 Commit with ammend.
 From desktop and web manually merged.
+Stop merging now.
