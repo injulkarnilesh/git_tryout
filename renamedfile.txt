@@ -22,4 +22,6 @@ Trying to merge again.
 Stop merging now.
 No we won't stop merging until we merge it well.
 
+
 Now we should be good with merging.
+Multiple files merge failed with intellij.
