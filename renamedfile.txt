@@ -17,4 +17,4 @@ This line changed by remote and me.
 Ok, changed again.
 
 Commit with ammend.
-From desktop not web.
+From desktop and web manually merged.
