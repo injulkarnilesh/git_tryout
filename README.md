@@ -39,6 +39,6 @@ $git diff HEAD filename
 
 $git mergetool
 
-$git diff origin/master..HEAD //DIFF UNPUSHEd
+$git diff origin/master..HEAD //DIFF UNPUSHEddd
 
-$git log origin/master..HEAD //LOG UNPUSHEd
+$git log origin/master..HEAD //LOG UNPUSHEddd
