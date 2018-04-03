@@ -38,3 +38,7 @@ $git log --decorate --oneline
 $git diff HEAD filename
 
 $git mergetool
+
+$git diff origin/master..HEAD
+
+$git log origin/master..HEAD
