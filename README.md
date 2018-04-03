@@ -34,3 +34,7 @@ $git rebase --continue  //after same line conflict resolution
 $git push origin master
 
 $git log --decorate --oneline
+
+$git diff HEAD filename
+
+$git mergetool
