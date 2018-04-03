@@ -17,8 +17,4 @@ This line changed by remote and me.
 Ok, changed again.
 
 Commit with ammend.
-<<<<<<< HEAD
-From desktop not web.
-=======
-From web not desktop.
->>>>>>> 24b8b35b0eda8fb5089d8a6929b564f5d178a9cc
+From github web not desktop.
