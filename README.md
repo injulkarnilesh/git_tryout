@@ -43,5 +43,13 @@ $git diff origin/master..HEAD //DIFF UN-PUSHED
 
 $git log origin/master..HEAD //LOG UN-PUSHED
 
+$git stash list
+$git stash save "Some stash message, goes to top of stash"
+$git stash apply stash@{0} //does not remove
+$git stash pop
+$git stash drop stash@{1}
+$git stash clear
+
+
 Alias to pull all git repos from workspace :
 alias gitpullall='workspace && find . -name ".git" -type d | sed "s/\/.git//" |  xargs -P5 -I{} git -C {} pull --rebase | grep "CONFLICT"'
