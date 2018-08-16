@@ -1,12 +1,8 @@
 # git_tryout
 Trying out git with github
-It's cool!
 
-## Wow
-Change from local repo diff file.
 
-We changed the file and line same. Yeah!
-
+## Commands
 $git status
 
 $git pull --rebase origin master
@@ -41,15 +37,35 @@ $git mergetool
 
 $git diff origin/master..HEAD //DIFF UN-PUSHED
 
+$git diff --cached filename
+
 $git log origin/master..HEAD //LOG UN-PUSHED
 
+## Stash
 $git stash list
+
 $git stash save "Some stash message, goes to top of stash"
+
 $git stash apply stash@{0} //does not remove
+
 $git stash pop
+
 $git stash drop stash@{1}
+
 $git stash clear
 
 
-Alias to pull all git repos from workspace :
+## Alias to pull all git repos
+```
 alias gitpullall='workspace && find . -name ".git" -type d | sed "s/\/.git//" |  xargs -P5 -I{} git -C {} pull --rebase | grep "CONFLICT"'
+```
+
+## Git rebase pull with stash
+```
+alias gitspr='git stash && git pull --rebase || git stash pop'
+```
+
+## Alias to pull all git repos (With stash)
+```
+alias gitpullall='workspace && find . -name ".git" -type d | sed "s/\/.git//" |  xargs -P2 -I{} sh -c "git -C {} stash && git -C {} pull --rebase || git -C {} stash pop" | grep "CONFLICT"'
+```
