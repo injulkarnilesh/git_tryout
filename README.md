@@ -69,3 +69,30 @@ alias gitspr='git stash && git pull --rebase || git stash pop'
 ```
 alias gitpullall='workspace && find . -name ".git" -type d | sed "s/\/.git//" |  xargs -P2 -I{} sh -c "git -C {} stash && git -C {} pull --rebase || git -C {} stash pop" | grep "CONFLICT"'
 ```
+
+## Git alias
+```
+alias.s status
+alias.a !git add . && git status
+alias.au !git add -u . && git status
+alias.aa !git add . && git add -u . && git status
+alias.c commit
+alias.cm commit -m
+alias.ca commit --amend
+alias.ac !git add . && git commit
+alias.acm !git add . && git commit -m
+alias.l log --graph --all --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'
+alias.ll log --stat --abbrev-commit
+alias.lg log --color --graph --pretty=format:'%C(bold white)%h%Creset -%C(bold green)%d%Creset %s %C(bold green)(%cr)%Creset %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+alias.llg log --color --graph --pretty=format:'%C(bold white)%H %d%Creset%n%s%n%+b%C(bold blue)%an <%ae>%Creset %C(bold green)%cr (%ci)' --abbrev-commit
+alias.d diff
+alias.master checkout master
+alias.spull svn rebase
+alias.spush svn dcommit
+alias.alias !git config --list | grep 'alias\.' | sed 's/alias\.\([^=]*\)=\(.*\)/\1\	 => \2/' | sort
+alias.lg log --decorate --oneline
+alias.st status
+alias.pll pull --rebase
+alias.psh push origin master
+alias.dff diff --cached
+```
