@@ -62,12 +62,12 @@ alias gitpullall='workspace && find . -name ".git" -type d | sed "s/\/.git//" | 
 
 ## Git rebase pull with stash
 ```
-alias gitspr='git stash && git pull --rebase || git stash pop'
+alias gitspr='git stash && (git pull --rebase || echo "PULL FAILED") && git stash pop'
 ```
 
 ## Alias to pull all git repos (With stash)
 ```
-alias gitpullall='workspace && find . -name ".git" -type d | sed "s/\/.git//" |  xargs -P2 -I{} sh -c "git -C {} stash && git -C {} pull --rebase || git -C {} stash pop" | grep "CONFLICT"'
+alias gitpullall='workspace && find . -name ".git" -type d | sed "s/\/.git//" |  xargs -P2 -I{} sh -c "git -C {} stash && (git -C {} pull --rebase || echo "PULL FAILED") && git -C {} stash pop"'
 ```
 
 ## Git alias
