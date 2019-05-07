@@ -1,4 +1,4 @@
-hi this is renamed file
+hi this is snehal
 
 Somebody changing same file different line.
 
