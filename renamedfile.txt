@@ -1,6 +1,6 @@
 hi this is Nilesh Injulkar
 
-Somebody changing same file different line.
+Somebody changing same file different line. Changed By Nilesh.
 
 Line B from master and mybranch the same line.
 
