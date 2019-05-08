@@ -2,7 +2,7 @@ hi this is Nilesh Injulkar
 
 Somebody changing same file different line.
 
-Line B from master and mybranch the same line.
+Line B from master and mybranch the same line. Change by snehal
 
 
 Change made in mybranch from remote and local.
