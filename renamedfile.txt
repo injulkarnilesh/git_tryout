@@ -2,7 +2,7 @@ hi this is Nilesh Injulkar
 
 Somebody changing same file different line. Changed By Nilesh Injulkar.
 
-Line A from master and mybranch the same line. Change by snehal
+Line B from master and mybranch the same line. Change by snehal Salokhe.
 
 
 Change made in mybranch from remote and local.
