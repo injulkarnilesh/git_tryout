@@ -60,15 +60,24 @@ $git stash clear
 alias gitpullall='workspace && find . -name ".git" -type d | sed "s/\/.git//" |  xargs -P5 -I{} git -C {} pull --rebase | grep "CONFLICT"'
 ```
 
+
 ## Git rebase pull with stash
 ```
 alias gitspr='git stash && (git pull --rebase || echo "PULL FAILED") && git stash pop'
 ```
 
+
 ## Alias to pull all git repos (With stash)
 ```
 alias gitpullall='workspace && find . -name ".git" -type d | sed "s/\/.git//" |  xargs -P2 -I{} sh -c "git -C {} stash && (git -C {} pull --rebase || echo "PULL FAILED") && git -C {} stash pop"'
 ```
+
+
+## Alias/Function to switch all repos to master and delete other branches
+```
+workspace && find . -name ".git" -type d | sed "s/\/.git//" | xargs -I {pth} sh -c "git -C {pth} branch | grep -v master | sed 's/*//' | xargs -I {brnch} sh -c 'git -C {pth} checkout master && git -C {pth} branch -D {brnch}'"
+```
+
 
 ## Git alias
 ```
